@@ -349,6 +349,12 @@ main {
     &_list {
       list-style: none;
     }
+    &_item {
+      &::before {
+        content: '';
+        background: none;
+      }
+    }
     &_item + &_item {
       margin-top: 20px;
     }
