@@ -113,6 +113,10 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    &::before {
+      content: '';
+      background: none;
+    }
 
     &._active {
       & .menu__arrow {
